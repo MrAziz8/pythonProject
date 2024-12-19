@@ -1,0 +1,14 @@
+
+
+
+ sudo -i -u postgres pg_dump -U postgres -d cinema -F tar -f /home/aziz/bacups/cinema.tar
+
+ 7. Faqat grades Jadvalini .tar Faylidan Tiklash
+.tar fayldan jadval ro‘yxatini ko‘rish:
+
+
+pg_restore -U your_username -l education.tar
+Faqat grades jadvalini tiklash:
+
+
+pg_restore -U your_username -d education -t grades education.tar

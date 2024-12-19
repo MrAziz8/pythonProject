@@ -1,0 +1,4 @@
+sudo -i -u postgres pg_restore -U postgres -d lesson_4 < lesson_4.tar                           - backup fileni databasega yozadi
+sudo -i -u postgres pg_dump -U postgres -d lesson_4 -F tar -f /home/aziz/Downloads/lesson_4.tar - databaseni filega yozadi
+
+

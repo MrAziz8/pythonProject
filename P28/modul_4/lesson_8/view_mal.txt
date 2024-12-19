@@ -1,0 +1,20 @@
+VIEW TURLARI
+
+    1) Oddiy View (Simple View)        -  oddiy va murakkab bo'lmagan so'rovlar uchun ishlatiladi.
+
+    2) Murakkab View (Complex View)    -  oddiy hisobotlar yoki tahlil uchun ishlatiladi.
+
+    3) Updatable View                  -  faqat 1 ta jadvalga asoslangan bo'lishi , primary key talab qiladi,INSERT, UPDATE va DELETE operatsiyalariga ruxsat beradi.
+
+    4) Materialized View               -  View ma'lumotlarini haqiqiy shaklda saqlaydi (ma'lumotlarni keshlaydi) va undan tez-tez foydalaniladigan ma'lumotlar uchun ishlatiladi.
+
+    5) Inline View (Subquery View)     - Asosiy so'rov ichida ishlatiladigan vaqtinchalik view. Bu doimiy saqlanmaydi, balki faqat so'rov bajarilganda hosil bo'ladi.
+
+    6) Security View  (Xavfsizlik View)- Foydalanuvchilarga faqat kerakli ma'lumotlarni ko'rsatish uchun maxsus yaratiladi.
+
+FUNCTION VA VIEW FARQI
+
+    Funksiya: Ko'proq hisoblash va parametrlarni qayta ishlashda ishlatiladi, natija bitta qiymat sifatida qaytariladi.
+
+    View: Ma'lumotlarni ko'rsatish va birlashtirish uchun ishlatiladi, natija bir nechta satrlar va ustunlar bo'lishi mumkin.
+

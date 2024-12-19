@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/01ae9ef0-a561-44b1-8866-1a29587d4042/console_6.sql" dialect="PostgreSQL" />
+    <file url="file://$USER_HOME$/Downloads/Telegram Desktop/world_of_tanks.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/P28/modul_4/imtihon/queries.sql" dialect="GenericSQL" />
+  </component>
+</project>
